@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:6060/pepperfrydb
+    username: root
+    password: root
+  jpa:
+    show-sql: false
+    generate-ddl: false

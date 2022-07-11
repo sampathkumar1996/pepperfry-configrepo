@@ -2,7 +2,8 @@ server:
   port: 8888
 spring:  cloud:    config:
       name: pepperfry-config      server:        git:          uri: https://github.com/sampathkumar1996/pepperfry-configrepo.git
-         # refresh-rate: 180
+         # refresh-rate: 180  security:    user:      name: sampathkumar1996
+      password: sampath040
       
            
            
